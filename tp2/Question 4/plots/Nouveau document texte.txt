@@ -1,0 +1,16 @@
+plot [0:1000000][0:600] 'dynamic_array_time_c.plot' using 1:3 w lines title "Amortized C", 'dynamic_array_time_cpp.plot' using 1:3 w lines title "Amortized C++", 'dynamic_array_time_java.plot' using 1:3 w lines title "Amortized JAVA", 'dynamic_array_time_python.plot' using 1:3 w lines title "Amortized Python", 'dynamic_array_copy_c.plot' using 1:2 w boxes title "Memory Allocation"
+
+
+plot [0:1000000][0:600] 'C:\java\tp structure de donnée avancée\sda\Java\plots\dynamic_array_memory_java.plot' using 1:2 w lines title "Espace memoire inutilise"
+
+plot [0:1000000][0:600] 'C:\java\tp structure de donnée avancée\sda\Java\plots\dynamic_array_permutation_java.plot' using 1:2 w boxes title "Nombre de permutation de valeurs effectuees"
+
+
+plot [0:12000][0:100000]'C:\java\tp structure de donnée avancée\sda\Java\plots\avl_ajout_aleatoire_time_java.plot' using 1:3 w lines title "Amortized Ajout aleatoire" 
+plot [0:12000][0:100000]'C:\java\tp structure de donnée avancée\sda\Java\plots\avl_ajout_croissant_time_java.plot' using 1:3 w lines title "Amortized Ajout Croissant" 
+plot [0:12000][0:100000]'C:\java\tp structure de donnée avancée\sda\Java\plots\avl_ajout_suppression_time_java.plot' using 1:3 w lines title "Amortized Ajout Suppression" 
+ 
+
+plot [0:15000][0:15000]'C:\java\tp structure de donnée avancée\sda\Java\plots\avl_ajout_suppression_memry_java.plot' using 1:3 w lines title "Memory Ajout Suppression" 
+ 
+

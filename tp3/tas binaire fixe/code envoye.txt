@@ -1,0 +1,14 @@
+int extraire_min() {
+        nb_permutation=0;
+        int min;
+       if (nTas < 1){
+           System.out.println("le tas est vide");
+           return -1;
+              }
+        min =tas[0];
+        tas[0]= tas[nTas-1];
+        nTas--;
+        int p=0;
+        p=Entasser(0);
+        return p;
+    }
